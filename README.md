@@ -23,15 +23,15 @@ node .\index.js --step=1
 4. Run the following command for each of your smaller files generated in the previous step. For example, in the previous step you created 3 files named `part-1.txt`, `part-2.txt`, and `part-3.txt`, you should run these commands. You can open several shells so they run in parallel making the process faster.
 
 ```shell script
-node .\index.js --step=1 --filename=part-1.txt
+node .\index.js --step=3 --filename=part-1.txt
 ```
 
 ```shell script
-node .\index.js --step=1 --filename=part-2.txt
+node .\index.js --step=3 --filename=part-2.txt
 ```
 
 ```shell script
-node .\index.js --step=1 --filename=part-3.txt
+node .\index.js --step=3 --filename=part-3.txt
 ```
 
 5. If the passphrase containing DAI is found, a file named `found.txt` will be created containing the passphrase and the complete ethereum address.
