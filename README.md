@@ -18,7 +18,7 @@ yarn install
 node .\index.js --step=1
 ```
 
-3. The file generated in the previous step will be about 300Mb. You should consider splitting it into smaller files with different names. I didn't do this in this version of the code.
+3. The file generated in the previous step will be about 300 MB. You should consider splitting it into smaller files with different names. If you run `node .\index.js --step=2` nothing will happen, that step needs to be done manually. I may add the functionality to do that automatically in the future, who knows?
 
 4. Run the following command for each of your smaller files generated in the previous step. For example, in the previous step you created 3 files named `part-1.txt`, `part-2.txt`, and `part-3.txt`, you should run these commands. You can open several shells so they run in parallel making the process faster.
 
